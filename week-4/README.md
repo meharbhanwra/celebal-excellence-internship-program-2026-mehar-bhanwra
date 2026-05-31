@@ -44,9 +44,9 @@ The CIFAR-10 dataset consists of **60,000 32x32 color images** split across 10 c
 
 | Architecture | Model Configuration / Training Strategy | Test Accuracy | Learning Characteristics |
 | :--- | :--- | :---: | :--- |
-| **ANN** | Base Flattened Vector Input ($3,072$ inputs) | **~41.4%** | Stalls early; expanding model depth causes an parameter explosion without resolving accuracy limitations. |
-| **CNN** | Base 3-Layer Spatial Convolution ($32 \rightarrow 64 \rightarrow 128$) | **~71.1%** | Rapidly climbs; preserves geometric shapes, but shows a severe tendency to overfit past epoch 15. |
-| **CNN** | Advanced Architecture with Data Augmentation & Batch Norm | **~70.8%** | Highly stable convergence; training and validation curves stay tightly locked, indicating excellent generalization. |
+| **ANN** | Base Flattened Vector Input ($3,072$ inputs) | **40.37%** | Stalls early; expanding model depth causes an parameter explosion without resolving accuracy limitations. |
+| **CNN** | Base 3-Layer Spatial Convolution ($32 \rightarrow 64 \rightarrow 128$) | **73.83%** | Rapidly climbs; preserves geometric shapes, but shows a severe tendency to overfit past epoch 15. |
+| **CNN** | Advanced Architecture with Data Augmentation & Batch Norm | **69.93%** | Highly stable convergence; training and validation curves stay tightly locked, indicating excellent generalization. |
 
 ---
 
