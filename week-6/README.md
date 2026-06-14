@@ -333,7 +333,7 @@ pip install torch torchvision numpy pandas matplotlib scikit-image torchinfo
 Launch Jupyter Notebook:
 
 ```bash
-jupyter notebook
+jupyter notebook week6_Mehar_Bhanwra.ipynb
 ```
 
 Open the notebook and run all cells sequentially.
