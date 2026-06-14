@@ -327,7 +327,7 @@ cd celebal-excellence-internship-program-2026-mehar-bhanwra/week-6
 Install dependencies:
 
 ```bash
-pip install torch torchvision numpy pandas matplotlib scikit-image torchinfo
+pip install torch torchvision numpy pandas matplotlib scikit-image torchinfo jupyter
 ```
 
 Launch Jupyter Notebook:
