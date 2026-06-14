@@ -320,8 +320,8 @@ It correlates better with human visual perception than MSE alone.
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/meharbhanwra/celebal-excellence-internship-program-2026-mehar-bhanwra.git
+cd celebal-excellence-internship-program-2026-mehar-bhanwra/week-6
 ```
 
 Install dependencies:
