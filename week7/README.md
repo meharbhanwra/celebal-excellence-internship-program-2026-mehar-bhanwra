@@ -232,48 +232,24 @@ Prompt design and context quality strongly influence final answer quality.
 
 BERTScore provides a better measure of semantic correctness than purely lexical metrics such as BLEU and ROUGE.
 
----
+## Prerequisites & Installation
 
-## Limitations
+### Clone the Repository
 
-* Knowledge is limited to the collected robotics corpus.
-* Answers depend on retrieval quality.
-* Evaluation dataset is relatively small.
-* Generated responses are constrained by the information available in retrieved chunks.
-
----
-
-## Future Improvements
-
-### RAGAS Integration
-
-An initial goal was to evaluate the system using RAGAS metrics such as:
-
-* Faithfulness
-* Answer Relevancy
-* Context Precision
-* Context Recall
-
-However, RAGAS was not integrated into the final pipeline due to package compatibility issues between:
-
-* Kaggle's Python 3.12 environment
-* Recent LangChain releases
-* LangChain Community dependencies
-* RAGAS version requirements
-
-Multiple dependency configurations were tested, but they introduced conflicts with Sentence Transformers, NumPy, SciPy, and LangChain packages required by the retrieval pipeline.
-
-Future work could include:
-
-* Running the project in a dedicated environment with fully compatible RAGAS dependencies.
-* Evaluating retrieval faithfulness and context utilization using RAGAS.
-* Comparing RAGAS metrics with ROUGE, BLEU, and BERTScore.
-* Integrating hybrid retrieval (BM25 + Dense Retrieval).
-* Expanding the robotics knowledge base.
-* Experimenting with larger embedding and generation models.
-* Implementing conversational memory and multi-turn question answering.
-
----
+```bash
+git clone https://github.com/meharbhanwra/celebal-excellence-internship-program-2026-mehar-bhanwra.git
+cd celebal-excellence-internship-program-2026-mehar-bhanwra/week-7
+```
+```bash
+pip install torch pandas numpy faiss-cpu \
+sentence-transformers transformers \
+langchain langchain-community \
+datasets evaluate bert-score rouge-score \
+wikipedia-api rank-bm25 matplotlib
+```
+```bash
+jupyter notebook week7_Mehar_Bhanwra.ipynb
+```
 
 ## Author
 
