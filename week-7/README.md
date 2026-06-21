@@ -191,6 +191,8 @@ Evaluated generated answers against manually created ground-truth responses.
 ### Observation
 
 Larger chunk sizes preserved more contextual information and achieved slightly higher semantic similarity scores.
+During chunk-size experiments, Hugging Face generation warnings and BERTScore model-loading messages were observed. 
+These were informational warnings related to model configuration and evaluation library initialization and did not affect retrieval, generation, or metric computation.
 
 ---
 
