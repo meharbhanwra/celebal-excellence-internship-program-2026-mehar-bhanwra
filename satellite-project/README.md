@@ -215,7 +215,21 @@ Comprehensive error analysis includes:
 
 The project includes an interactive Streamlit dashboard.
 
+## Home
+
+<p align="center">
+  <img src="assets/dashboard_home.png" width="900">
+</p>
+
+---
+
 ## Land-Use Classification
+
+<p align="center">
+  <img src="assets/classification_demo.png" width="900">
+</p>
+
+The dashboard allows users to upload a satellite image and predicts its land-use class along with confidence scores and class probabilities.
 
 Features:
 
@@ -228,6 +242,15 @@ Features:
 ---
 
 ## Temporal Change Detection
+
+<p align="center">
+  <img src="assets/change_detection_demo_1.png" width="900">
+</p>
+<p align="center">
+  <img src="assets/change_detection_demo_2.png" width="900">
+</p>
+
+Users can upload two satellite images to compare them using feature embeddings. The dashboard reports cosine similarity, predicts whether the scene has changed, and visualizes pixel differences using a heatmap.
 
 Features:
 
