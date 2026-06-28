@@ -31,6 +31,7 @@ pip install -r requirements.txt
 
  ```text
 │
+├── assets/
 ├── app/
 ├── checkpoints/
 ├── data/
@@ -85,6 +86,8 @@ streamlit run app/app.py
 
 The primary dataset used for training and evaluation is the **EuroSAT RGB** dataset, consisting of **27,000 Sentinel-2 satellite images** belonging to ten land-use classes.
 
+Link: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
+
 ### Classes
 
 * AnnualCrop
@@ -117,6 +120,8 @@ The project includes:
 To evaluate cross-dataset generalization, the trained model is tested on a mapped subset of the **UC Merced Land Use Dataset**.
 
 The original 21 UC Merced classes are mapped to compatible EuroSAT classes before evaluation.
+
+Link: https://www.kaggle.com/datasets/abdulhasibuddin/uc-merced-land-use-dataset
 
 ---
 
@@ -262,10 +267,30 @@ Features:
 
 ---
 
+## Dashboard Demo
+
+A short demonstration of the Streamlit dashboard is available below.
+
+https://github.com/user-attachments/assets/<video-id>
+
+If this video cannot be played in the README, refer to assets/demo.mp4 in this repository.
+
+[▶ Watch the Dashboard Demo](assets/demo.mp4)
+---
+
+## Project Report
+
+The complete project report is available here:
+
+📄 [Satellite Project Report (PDF)](assets/report.pdf)
+
+---
+
 # Project Structure
 
 ```text
 │
+├── assets/
 ├── app/
 ├── checkpoints/
 ├── data/
