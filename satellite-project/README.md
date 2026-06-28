@@ -9,8 +9,8 @@ This project implements an end-to-end remote sensing pipeline for **satellite la
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/meharbhanwra/celebal-final-project-2026-mehar-bhanwra.git
-cd satellite-project
+git clone https://github.com/meharbhanwra/celebal-excellence-internship-program-2026-mehar-bhanwra.git
+cd celebal-excellence-internship-program-2026-mehar-bhanwra/satellite-project
 ```
 
 ## Create a Virtual Environment
