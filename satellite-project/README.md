@@ -273,7 +273,7 @@ A short demonstration of the Streamlit dashboard is available below.
 
 [▶ Watch the Dashboard Demo](assets/demo.webm)
 
-NOTE: In case the demonstration video cannot be viewed in the browser, download it to view it.
+**NOTE: In case the demonstration video cannot be viewed in the browser, download it to view it.**
 ---
 
 ## Project Report
@@ -281,8 +281,6 @@ NOTE: In case the demonstration video cannot be viewed in the browser, download 
 The complete project report is available here:
 
 📄 [Satellite Project Report (PDF)](assets/celebal-final-project-report.pdf)
-
-NOTE: In case the report cannot be viewed in the browser, download it to view it.
 
 ---
 
