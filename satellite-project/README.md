@@ -271,18 +271,22 @@ Features:
 
 A short demonstration of the Streamlit dashboard is available below.
 
-https://github.com/user-attachments/assets/<video-id>
+https://github.com/user-attachments/assets/demo.webm
 
 If this video cannot be played in the README, refer to assets/demo.mp4 in this repository.
 
-[▶ Watch the Dashboard Demo](assets/demo.mp4)
+[▶ Watch the Dashboard Demo](assets/demo.webm)
+
+NOTE: In case the demonstration video cannot be viewed in the browser, download it to view it.
 ---
 
 ## Project Report
 
 The complete project report is available here:
 
-📄 [Satellite Project Report (PDF)](assets/report.pdf)
+📄 [Satellite Project Report (PDF)](assets/celebal-final-project-report.pdf)
+
+NOTE: In case the report cannot be viewed in the browser, download it to view it.
 
 ---
 
